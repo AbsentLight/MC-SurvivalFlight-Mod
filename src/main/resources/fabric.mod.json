@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "survivalflight",
+  "version": "${version}",
+
+  "name": "Survival Flight",
+  "description": "Allows creative-like flight in survival mode!",
+  "authors": [
+    "Absent_Light"
+  ],
+  "contact": {
+    "website": "darke.xyz"
+  },
+
+  "license": "GPLv2",
+  "icon": "assets/survivalflight/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "xyz.darke.survivalflight.SurvivalFlight"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
